@@ -9,8 +9,8 @@ Installation:
 
  In /etc/check_mk/mrpe.cfg insert your plugin (-p) with the wrapper and give the interval (-i) in seconds:
 
- '''
+ ```
  YourCheck		/usr/local/nagios-plugins/cmk_wrapper.py -i 7200 -p /usr/local/nagios-plugins/your_original_check
- '''
+ ```
 
 
