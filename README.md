@@ -3,6 +3,9 @@ cmk_wrapper
 
 Problem: CheckMK is being checked in a given time interval (default 60 seconds). If you have plugins which do not need this short interval and should be run with their own interval, you need this wrapper. 
 
+Since Version 1.2.3.i1 of CheckMK this is built in, but prior you need this!
+See:  http://lists.mathias-kettner.de/pipermail/checkmk-de/2014-January/003930.html
+
 Installation:
 
  Download the cmk_wrapper.py to some location.
